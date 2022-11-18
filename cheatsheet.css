@@ -1,0 +1,154 @@
+body {
+    width: 400px;
+    margin: 0 auto;
+    padding: 9px;
+    background-image: url(images/jason-hafso-Ohmaz7350ms-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.wrapper{
+    background-color: #313131;
+    width: 59vw;
+    color: #fff;
+}
+  
+  div.elem-group {
+    margin: 20px 0;
+  
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    font-family: 'Nanum Gothic';
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 6px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Nanum Gothic';
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+  .footer_container{
+    max-width: 1170px;
+    margin: auto;
+  border-radius: 25%;
+  }
+  .footer_row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: #313131;
+    padding: 70px 0;
+    border-radius: 35px;
+  }
+  .footer_col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer_col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color:black;
+  }
+  
+  .footer_col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer_col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer_col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer_col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+  }
+  .footer_col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  .footer_col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  @media(max-width: 480px){
+    .footer_col{
+      width: 25%;
+      padding: 0 15px;
+      margin-bottom: 30px;
+    }
+    #main-container p{
+      width: 100%;
+      height: auto;
+    }
+  }
